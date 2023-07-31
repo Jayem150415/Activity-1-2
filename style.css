@@ -1,0 +1,21 @@
+body {
+    font-size: 10pt;
+    space: 15pt;
+  
+}   
+
+
+    table {
+  border-collapse: collapse;
+  width: 300px; /* Adjust the width as needed */
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
